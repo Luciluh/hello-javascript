@@ -1,13 +1,18 @@
-/*
-Clase 30 - Ejercicios: Bucles
-Vídeo: https://youtu.be/1glVfFxj8a4?t=12732
-*/
-
-// NOTA: Explora diferentes sintaxis de bucles para resolver los ejercicios
-
 // 1. Crea un bucle que imprima los números del 1 al 20
 
+for (let index = 0; index < 21; index++) {
+    console.log(index);   
+}
+
+
 // 2. Crea un bucle que sume todos los números del 1 al 100 y muestre el resultado
+console.log("Suma de los números del 1 al 100")
+
+let suma = 0;
+for (let index = 1; index <= 100; index++) {
+    suma += index;
+}
+console.log(suma);
 
 // 3. Crea un bucle que imprima todos los números pares entre 1 y 50
 

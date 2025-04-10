@@ -1,7 +1,3 @@
-/*
-Clase 24 - Ejercicios: Condicionales
-Vídeo: https://youtu.be/1glVfFxj8a4?t=8652
-*/
 
 // if/else/else if/ternaria
 

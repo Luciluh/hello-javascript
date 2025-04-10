@@ -1,11 +1,20 @@
 /*
-Clase 28 - Ejercicios: Estructuras
-Vídeo: https://youtu.be/1glVfFxj8a4?t=11451
+ARRAY: GUARDAR UN LISTADO SIN MAS, POR EJEMPLO DE FRUTAS 
+SET: GUARDAR UN LISTADO DE ELEMENTOS PERO ASEGURARME QUE NO PUEDAN ESTAR REPETIDOS 
+MAP: GUARDAR LOS DATOS DE UN USUARIO PARA PODER ACCEDER A ELLOS Y MODIFICAR
 */
 
 // 1. Crea un array que almacene cinco animales
 
+let animales = ["Perro","Gato","Pajaro","Caballo","Pez"]
+console.log(animales)
+
 // 2. Añade dos más. Uno al principio y otro al final
+
+animales.push("Hormiga")
+animales.unshift("Trucha")
+console.log(animales)
+
 
 // 3. Elimina el que se encuentra en tercera posición
 
